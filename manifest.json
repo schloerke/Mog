@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://mog.com/chrome*", "https://mog.com/chrome*", "http://mog.com/m*", "https://mog.com/m*" ],
+      "js": [ "jquery-1.3.2.min.js", "jquery-script.js" ],
+      "matches": [ "http://mog.com/chrome*", "https://mog.com/chrome*", "http://mog.com/m*", "https://mog.com/m*" ]
+   } ],
+   "description": "Make MOG Chrome Player better.",
+   "name": "MOG Chrome Enhancer (schloerke and jdanbrown fork)",
+   "version": "0.3.1"
+}
