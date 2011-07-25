@@ -190,6 +190,7 @@ function main() {
         } else {
           history.back();
         }
+        break;
       case 'r':
         // radio toggle
         $('#radio_toggle').click();
@@ -205,6 +206,7 @@ function main() {
         } else {
           $('#full_view').click();
         }
+        break;
       case 't':
         // view play queue
         if ($('#play_queue').css('display') == 'none') {
